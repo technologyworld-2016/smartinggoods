@@ -30,12 +30,112 @@ import './style.css'
         <section id="services" class="py-20">
           <div class="container mx-auto px-6">
             <h2 class="text-3xl font-bold text-center mb-16">Our Services</h2>
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-              <div class="bg-white p-8 rounded-lg shadow-lg">
-                <div class="text-primary text-4xl mb-4">🖥️</div>
-                <h3 class="text-xl font-bold mb-4">Website Design</h3>
-                <p class="text-gray-600">Modern, responsive websites that convert visitors into customers.</p>
+            
+            <!-- Website Design Services Section -->
+            <div class="bg-white p-12 rounded-lg shadow-lg mb-20">
+              <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-primary mb-4">Website Design Services</h2>
+                <p class="text-xl text-gray-600 max-w-2xl mx-auto">We create stunning, high-performing websites that drive results. From sleek portfolios to powerful e-commerce platforms, we've got you covered.</p>
               </div>
+
+              <!-- Our Process -->
+              <div class="mb-20">
+                <h3 class="text-2xl font-bold text-center mb-12">Our Design Process</h3>
+                <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                  <div class="text-center">
+                    <div class="text-4xl text-primary mb-4">1</div>
+                    <h4 class="font-bold mb-2">Discovery</h4>
+                    <p class="text-gray-600">We learn about your business and goals</p>
+                  </div>
+                  <div class="text-center">
+                    <div class="text-4xl text-primary mb-4">2</div>
+                    <h4 class="font-bold mb-2">Design</h4>
+                    <p class="text-gray-600">Crafting beautiful, user-friendly interfaces</p>
+                  </div>
+                  <div class="text-center">
+                    <div class="text-4xl text-primary mb-4">3</div>
+                    <h4 class="font-bold mb-2">Development</h4>
+                    <p class="text-gray-600">Building responsive, high-performance sites</p>
+                  </div>
+                  <div class="text-center">
+                    <div class="text-4xl text-primary mb-4">4</div>
+                    <h4 class="font-bold mb-2">Launch</h4>
+                    <p class="text-gray-600">Deploying and optimizing your new website</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Portfolio Showcase -->
+              <div class="mb-20">
+                <h3 class="text-2xl font-bold text-center mb-12">Our Work</h3>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                  <div class="bg-gray-100 p-6 rounded-lg">
+                    <div class="aspect-w-16 aspect-h-9 mb-4">
+                      <div class="bg-gray-200 rounded-lg"></div>
+                    </div>
+                    <h4 class="font-bold mb-2">E-commerce Platform</h4>
+                    <p class="text-gray-600">Increased sales by 200% for a fashion brand</p>
+                  </div>
+                  <div class="bg-gray-100 p-6 rounded-lg">
+                    <div class="aspect-w-16 aspect-h-9 mb-4">
+                      <div class="bg-gray-200 rounded-lg"></div>
+                    </div>
+                    <h4 class="font-bold mb-2">Corporate Website</h4>
+                    <p class="text-gray-600">Modern design for a tech startup</p>
+                  </div>
+                  <div class="bg-gray-100 p-6 rounded-lg">
+                    <div class="aspect-w-16 aspect-h-9 mb-4">
+                      <div class="bg-gray-200 rounded-lg"></div>
+                    </div>
+                    <h4 class="font-bold mb-2">Portfolio Site</h4>
+                    <p class="text-gray-600">Showcasing work for a creative agency</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Pricing Packages -->
+              <div>
+                <h3 class="text-2xl font-bold text-center mb-12">Pricing Packages</h3>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                  <div class="bg-white p-8 rounded-lg shadow-lg border-2 border-gray-100">
+                    <h4 class="text-xl font-bold mb-4">Basic</h4>
+                    <div class="text-primary text-3xl font-bold mb-4">$1,999</div>
+                    <ul class="text-gray-600 space-y-2 mb-6">
+                      <li>5 Page Website</li>
+                      <li>Responsive Design</li>
+                      <li>Basic SEO Setup</li>
+                      <li>1 Month Support</li>
+                    </ul>
+                    <button class="w-full bg-primary text-white px-6 py-2 rounded hover:bg-secondary">Get Started</button>
+                  </div>
+                  <div class="bg-white p-8 rounded-lg shadow-lg border-2 border-primary">
+                    <h4 class="text-xl font-bold mb-4">Professional</h4>
+                    <div class="text-primary text-3xl font-bold mb-4">$3,999</div>
+                    <ul class="text-gray-600 space-y-2 mb-6">
+                      <li>10 Page Website</li>
+                      <li>Custom Design</li>
+                      <li>Advanced SEO</li>
+                      <li>3 Months Support</li>
+                    </ul>
+                    <button class="w-full bg-primary text-white px-6 py-2 rounded hover:bg-secondary">Get Started</button>
+                  </div>
+                  <div class="bg-white p-8 rounded-lg shadow-lg border-2 border-gray-100">
+                    <h4 class="text-xl font-bold mb-4">Enterprise</h4>
+                    <div class="text-primary text-3xl font-bold mb-4">$6,999</div>
+                    <ul class="text-gray-600 space-y-2 mb-6">
+                      <li>Unlimited Pages</li>
+                      <li>E-commerce Integration</li>
+                      <li>Full SEO Optimization</li>
+                      <li>6 Months Support</li>
+                    </ul>
+                    <button class="w-full bg-primary text-white px-6 py-2 rounded hover:bg-secondary">Get Started</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Other Services -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
               <div class="bg-white p-8 rounded-lg shadow-lg">
                 <div class="text-primary text-4xl mb-4">📈</div>
                 <h3 class="text-xl font-bold mb-4">Online Marketing</h3>
